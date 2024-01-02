@@ -1,6 +1,6 @@
 import numpy as np
 
-college = np.genfromtxt(file_path, delimiter=",", skip_header=1, names=("private","apps","accept","enroll","top10perc","top25perc","f_undergrad","p_undergrad","outstate","room_board","books","personal","phd","terminal","s_f_ratio","perc_alumni","expend","grad_rate"))
+college = np.genfromtxt("data.csv", delimiter=",", skip_header=1, names=("private","apps","accept","enroll","top10perc","top25perc","f_undergrad","p_undergrad","outstate","room_board","books","personal","phd","terminal","s_f_ratio","perc_alumni","expend","grad_rate"))
 
 top_25 = college[college["top25perc"] > 75]["grad_rate"].mean()
 worst_25 = college[college["top25perc"] < 25]["grad_rate"].mean()
