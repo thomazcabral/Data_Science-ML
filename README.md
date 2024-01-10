@@ -9,3 +9,6 @@ Welcome to my Data Science repository, where I document my learnings through thi
 ## 📋 Interesting projects
 - [Simple Linear Algebra Calculator](https://github.com/thomazcabral/Data_Science/blob/3837a7b27dec5c3478b171a9666989353ac752bb/Data%20Science%20with%20Python/C1%20(Introduction%20to%20Data%20Science%20in%20Python)/W1%20(Fundamentals%20of%20Data%20Manipulation%20in%20Python)/A1/linear_algebra_calc.py)
 , which helped me get familiarized with array manipulation in the Python numPy library as well as reminding me some crucial concepts of Linear Algebra, which has many applications in Computer Science and Data Science.
+
+- [Data Loading, Preparation, Exploration and Cleaning](https://github.com/thomazcabral/Data_Science/blob/90ed1bef23b9ab0dea902376c1cea9c3bb4a256e/Data%20Science%20with%20Python/C1%20(Introduction%20to%20Data%20Science%20in%20Python)/W2%20(Basic%20Data%20Processing%20with%20Pandas)/A2/data_manipulation.ipynb)
+, by engaging in this exercise, I gained valuable experience applicable to real-world data analysis and this enhanced my proficiency in handling diverse datasets.
