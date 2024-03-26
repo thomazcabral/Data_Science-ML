@@ -1,5 +1,5 @@
-# Data Science Learning 📊🚀
-Welcome to my Data Science repository, where I document my learnings through this dynamic field. Here, you'll find a collection of code snippets, projects and explorations in various programming languages, including Python, R and SQL. This repository is a living document, continuously updated as I delve deeper into the world of Data Science.
+# Data Science and Machine Learning 📊🚀
+Welcome to my Data Science and Machine Learning (ML) repository, where I document my learnings through this dynamic field. Here, you'll find a collection of code snippets, projects and explorations in various programming languages, including Python, R and SQL. This repository is a living document, continuously updated as I delve deeper into the world of Data Science and ML.
 
 ## 📚 Learning Resources
 - Simple yet insightful code examples
