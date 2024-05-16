@@ -4,7 +4,7 @@ library(imputeTS)
 
 dataset_na <- tsNH4
 
-dataset_predicted <- na_random(dataset_na)
+dataset_predicted <- na_interpolation(dataset_na, option="linear")
 
 dataset_complete <- tsNH4Complete
 
@@ -16,6 +16,6 @@ MSE <- mean((dataset_predicted - dataset_complete)^2)
 
 RMSE <- sqrt(mean((dataset_predicted - dataset_complete)^2))
 
-print(paste("MAE:", MAE)) # 3.50670907624466
-print(paste("MSE:", MSE)) # 93.5046113947801
-print(paste("RMSE:", RMSE)) # 9.66977824951431
+print(paste("MAE:", MAE)) # 0.262493827989112
+print(paste("MSE:", MSE)) # 1.12897361321934
+print(paste("RMSE:", RMSE)) # 1.06253169986563
